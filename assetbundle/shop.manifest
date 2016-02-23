@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 2673940688
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5a8582cc6e7746ef86182aa9fc6a9329
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f47e5080155a0c3ac2e9ffbbc14e366d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/hotdogsp.fbx
+- Assets/churrosp.fbx
+- Assets/wafflesp.fbx
+- Assets/pancakes.fbx
+- Assets/churros.fbx
+- Assets/pancakesp.fbx
+- Assets/toysp.fbx
+- Assets/toys.fbx
+- Assets/pizza.fbx
+- Assets/hotdogs.fbx
+- Assets/waffles.fbx
+- Assets/hotchocolatep.fbx
+- Assets/pizzap.fbx
+- Assets/hotchocolate.fbx
+Dependencies: []

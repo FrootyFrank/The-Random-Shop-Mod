@@ -1,0 +1,198 @@
+﻿{
+	"Pizza" : {
+		"model":"pizza",
+		"price": 160.0,
+		"products": {
+			"Pizza Slice": {
+				"model":"pizzap",
+				"price": 1.5,
+				"type" : "consumable",
+				"temprature" : "hot",
+                "hand" : "left",
+				"consumeanimation" : "generic", 
+				"portions" : 10,
+				"ingredients": {
+					"cheese" :{
+					 "price": 1.0,
+					 "amount" : 1.0,
+					"tweakable" : true,
+					"effects": [
+					{
+						"affectStat" : "hunger",
+						"amount" : -.4
+					}]
+                    }
+                }
+            }
+		}
+	},
+
+	"Hotdogs" : {
+		"model":"hotdogs",
+		"price": 160.0,
+		"products": {
+			"Hotdog": {
+				"model":"hotdogsp",
+				"price": 1.5,
+				"type" : "consumable",
+				"temprature" : "hot",
+                "hand" : "left",
+				"consumeanimation" : "generic", 
+				"portions" : 10,
+				"ingredients": {
+					"Mustard" :{
+					 "price": 1.0,
+					 "amount" : 1.0,
+					"tweakable" : true,
+					"effects": [
+					{
+						"affectStat" : "hunger",
+						"amount" : -.4
+					}]
+                    }
+                }
+            }
+		}
+	},
+    
+
+	"Churros" : {
+		"model":"churros",
+		"price": 160.0,
+		"products": {
+			"Churros": {
+				"model":"churrosp",
+				"price": 1.5,
+				"type" : "consumable",
+				"temprature" : "hot",
+                "hand" : "left",
+				"consumeanimation" : "generic", 
+				"portions" : 10,
+				"ingredients": {
+					"Churros" :{
+					 "price": 1.0,
+					 "amount" : 1.0,
+					"tweakable" : false,
+					"effects": [
+					{
+						"affectStat" : "hunger",
+						"amount" : -.4
+					}]
+                    }
+                }
+            }
+		}
+	},
+    
+
+    
+    "Waffles" : {
+		"model":"waffles",
+		"price": 160.0,
+		"products": {
+			"Waffle": {
+				"model":"wafflesp",
+				"price": 1.5,
+				"type" : "consumable",
+				"temprature" : "hot",
+                "hand" : "left",
+				"consumeanimation" : "generic", 
+				"portions" : 10,
+				"ingredients": {
+					"Waffles" :{
+					 "price": 1.0,
+					 "amount" : 1.0,
+					"tweakable" : false,
+					"effects": [
+					{
+						"affectStat" : "hunger",
+						"amount" : -.4
+					}]
+                    }
+                }
+            }
+		}
+	},
+        "Hot Chocolate" : {
+		"model":"hotchocolate",
+		"price": 160.0,
+		"products": {
+			"Hot Chocolate": {
+				"model":"hotchocolatep",
+				"price": 1.5,
+				"type" : "consumable",
+				"temprature" : "hot",
+                "hand" : "left",
+				"consumeanimation" : "generic", 
+				"portions" : 10,
+				"ingredients": {
+					"Marshmallows" :{
+					 "price": 1.0,
+					 "amount" : 1.0,
+					"tweakable" : false,
+					"effects": [
+					{
+						"affectStat" : "thirst",
+						"amount" : -.4
+					}]
+                    }
+                }
+            }
+		}
+	},
+        "Pancakes" : {
+		"model":"pancakes",
+		"price": 160.0,
+		"products": {
+			"Pancake": {
+				"model":"pancakesp",
+				"price": 1.5,
+				"type" : "consumable",
+				"temprature" : "hot",
+                "hand" : "left",
+				"consumeanimation" : "generic", 
+				"portions" : 10,
+				"ingredients": {
+					"Syrup" :{
+					 "price": 1.0,
+					 "amount" : 1.0,
+					"tweakable" : true,
+					"effects": [
+					{
+						"affectStat" : "hunger",
+						"amount" : -.4
+					}]
+                    }
+                }
+            }
+		}
+	},
+    
+    "Toys" : {
+		"model":"toys",
+		"price": 160.0,
+		"products": {
+			"Racecar": {
+				"model":"toysp",
+				"price": 1.5,
+				"type" : "consumable",
+				"temprature" : "cold",
+                "hand" : "left",
+				"consumeanimation" : "generic", 
+				"portions" : 10,
+				"ingredients": {
+					"Paint" :{
+					 "price": 1.0,
+					 "amount" : 1.0,
+					"tweakable" : true,
+					"effects": [
+					{
+						"affectStat" : "happiness",
+						"amount" : 0.4
+					}]
+                    }
+                }
+            }
+		}
+	}
+}
